@@ -1,14 +1,16 @@
 package com.xjf.wechat.servlet;
 
+import org.apache.log4j.Logger;
 import org.easywechat.msg.BaseMsg;
 import org.easywechat.msg.TextMsg;
 import org.easywechat.msg.req.TextReqMsg;
 import org.easywechat.servlet.WeixinServletSupport;
   
 
-public class DemoServlet extends WeixinServletSupport {  
-  
-    private static final long serialVersionUID = 1L;  
+public class CoreServlet extends WeixinServletSupport {  
+
+	private static final long serialVersionUID = 1L;
+	static Logger logger = Logger.getLogger(CoreServlet.class);	
   
     @Override  
     protected String getToken() {  
