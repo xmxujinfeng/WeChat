@@ -40,15 +40,9 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
-		<buildCommand>
-			<name>com.genuitec.eclipse.ast.deploy.core.DeploymentBuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
 	</buildSpec>
 	<natures>
 		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
-		<nature>com.genuitec.eclipse.ast.deploy.core.deploymentnature</nature>
 		<nature>com.genuitec.eclipse.j2eedt.core.webnature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
@@ -59,12 +53,12 @@
 		<link>
 			<name>easyWeChat</name>
 			<type>2</type>
-			<location>C:/Users/xjinfeng/Desktop/微信公众平台/easywechat-20140802.src</location>
+			<location>F:/Genuitec/git/WeChat/EasyWeChat</location>
 		</link>
 		<link>
-			<name>src-1</name>
+			<name>weChat4j</name>
 			<type>2</type>
-			<location>C:/Users/xjinfeng/Desktop/微信公众平台/easywechat-20140802.src</location>
+			<location>F:/Genuitec/git/WeChat/wechat4j/src</location>
 		</link>
 	</linkedResources>
 </projectDescription>

@@ -1,3 +1,5 @@
+/log4j.properties
+/wechat4j.properties.sample
 /.classpath
 /.project
 /META-INF

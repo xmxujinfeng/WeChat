@@ -2,9 +2,9 @@
 <project-module
   type="WEB"
   name="WeChatApp"
-  id="myeclipse.1462329681583"
+  id="myeclipse.1466752579515"
   context-root="/WeChatApp"
-  j2ee-spec="5.0"
+  j2ee-spec="6.0"
   archive="WeChatApp.war">
   <attributes>
     <attribute name="webrootdir" value="WebRoot" />
